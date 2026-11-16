@@ -1,0 +1,23 @@
+proxies:
+  - name: vless-reality
+    type: vless
+    server: 38.175.207.151
+    port: 443
+    uuid: a70e7f5-f823-4cdb-9a1b-eca0abaa3b00
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    servername: intel.com
+    reality-opts:
+      public-key: wwPcdwAHikv1YqOq-jm12gm28E6oWd2mQG57t64MezI
+      short-id: c8304950
+    client-fingerprint: chrome
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - vless-reality
+      - DIRECT
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,PROXY
