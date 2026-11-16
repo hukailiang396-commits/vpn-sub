@@ -1,1 +1,1 @@
-vless://a70e7f5-f823-4cdb-9a1b-eca0abaa3b00@38.175.207.151:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=intel.com&fp=chrome&pbk=wwPcdwAHikv1YqOq-jm12gm28E6oWd2mQG57t64MezI&sid=c8304950&type=tcp#vless-reality
+vless://a70ee7f5-f823-4cbd-9a1b-eca0abaa3b00@38.175.207.151:8444?encryption=none&flow=xtls-rprx-vision&security=reality&sni=intel.com&fp=chrome&pbk=wwPcdwAHIkv1YqOq-jm12gmZ8E6oWdZmQGS7t64MezI&sid=c8304950&type=tcp#vless-reality
